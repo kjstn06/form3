@@ -12,7 +12,7 @@ window.onload = function() {
 
     const resultContainer = document.querySelector('#result-container');
     
-    let resultMessage = `<p><strong>Welcome, ${firstName} ${lastName}!</strong></p>`;
+    let resultMessage = `<p><strong>Hello, ${firstName} ${lastName}!</strong></p>`;
 
     if (section) {
         resultMessage += `<p>You are from <strong>${section}</strong>.</p>`;
